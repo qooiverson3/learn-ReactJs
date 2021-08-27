@@ -1,4 +1,5 @@
 import { DataGrid } from '@material-ui/data-grid';
+import Pagination from '@material-ui/lab/Pagination';
 
 const columns = [
   { field: 'id', headerName: 'ID', width: 90 },
@@ -47,6 +48,7 @@ const rows = [
 ];
 
 export default function DataTable() {
+
   return (
     <div style={{ height: 400, width: '100%' }}>
       <DataGrid
